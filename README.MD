@@ -1,0 +1,1 @@
+Phoca GAE Module is Joomla! CMS extension. Module which allows displayed ads on website.
