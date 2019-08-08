@@ -1,0 +1,18 @@
+{
+	"author": "Jan Pavelka (www.phoca.cz)",
+	"authorUrl": "https://www.phoca.cz",
+	"copyright": "Jan Pavelka",
+	"license": "GNU/GPL",
+	"projectName": "PhocaGAEModule",
+	"extensionName": "Phoca GAE Module",
+	"projectInitials" : "GAE",				  
+	"description": "Phoca GAE (formerly known as Phoca Google AdSense Easy) is a Joomla! module. Don't waste your time filling out a lot of forms. Just copy your Google AdSense Code and paste it into your Joomla! site.",
+	"projectUrl": "https://www.phoca.cz/phoca-googleadsense",
+	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/10-phoca-google-adsense-easy",
+	"projectDemo" : {
+		"Phoca And Joomla! 3 Demo": "https://www.phoca.cz/joomla3demo/",
+		"Joomla! - Phoca Cart Demo": "https://www.phoca.cz/phocacartdemo/",
+		"Joomla! - Phoca Cart - Phoca Premiere Template Demo": "https://www.phoca.cz/phocacartdemo/premiere/"
+	},
+	"projectColor": "#C14641"
+}
