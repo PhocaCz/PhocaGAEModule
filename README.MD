@@ -2,7 +2,7 @@
 
 
 
-![Phoca GAE Module](https://github.com/PhocaCz/PhocaGAEModule/blob/master/mod_phocagae.png)
+![Phoca GAE Module](https://github.com/PhocaCz/PhocaGAEModule/blob/master/mod_phocagae.png?raw=true)
 
 # Phoca GAE Module
 
@@ -21,6 +21,8 @@ Phoca GAE (formerly known as Phoca Google AdSense Easy) is a Joomla! module. Don
 ## Documentation
 
 [Documentation](https://www.phoca.cz/documentation/category/10-phoca-google-adsense-easy)
+
+
 
 
 
@@ -52,9 +54,13 @@ Phoca GAE (formerly known as Phoca Google AdSense Easy) is a Joomla! module. Don
 
 
 
-## Version
+## Version (Joomla! 3.x)
 
 3.0.4
+
+## Version (Joomla! 4.x)
+
+4.0.0
 
 
 

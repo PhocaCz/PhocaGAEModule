@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" client="site" method="upgrade" version="3">
+<extension type="module" client="site" method="upgrade" version="4.0">
 	<name>mod_phocagae</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>08/08/2019</creationDate>
+	<creationDate>03/01/2022</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
-	<version>3.0.4</version>
+	<version>4.0.0</version>
 	<description>MOD_PHOCAGAE_DESCRIPTION</description>
 	<projectName>PhocaGAEModule</projectName>
 
 	<files>
+		<filename module="mod_phocagae">mod_phocagae.php</filename>
 		<filename module="mod_phocagae">index.html</filename>
 		<filename module="mod_phocagae">manifest.xml</filename>
-		<filename module="mod_phocagae">mod_phocagae.php</filename>
 	</files>
 
 	<languages>
