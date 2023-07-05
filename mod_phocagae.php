@@ -10,15 +10,28 @@
  */
 defined('_JEXEC') or die('Restricted access');// no direct access
 
-$adsense_code		= trim( $params->get( 'adsense_code' ) );
-$ip_block_list		= trim( $params->get( 'ip_block_list' ) );
-$alternate_content	= trim( $params->get( 'alternate_content' ) );
-$module_css_style	= trim( $params->get( 'module_css_style' ) );
+use Joomla\CMS\Uri\Uri;
+
+$adsense_code		= trim( $params->get( 'adsense_code', '' ) );
+$ip_block_list		= trim( $params->get( 'ip_block_list', '' ) );
+$alternate_content	= trim( $params->get( 'alternate_content', '' ) );
+$module_css_style	= trim( $params->get( 'module_css_style', '' ) );
 $ip_array 			= explode( ',', $ip_block_list );
 $ipa 				= 1;//display
-foreach ($ip_array as $value)	{if ($_SERVER["REMOTE_ADDR"] == trim($value)) {$ipa = 0;}}
+foreach ($ip_array as $value){
+    if ($_SERVER["REMOTE_ADDR"] == trim($value)) {
+        $ipa = 0;
+    }
+}
 if ($module_css_style)			{echo '<div style="'.$module_css_style.'">';}
-if ($ipa == 1)					{echo $adsense_code;}
-else							{echo $alternate_content;}
+if ($ipa == 1) {
+    $adsense_code = str_replace('{year}', date("Y"), $adsense_code);
+    $adsense_code = str_replace('{root}', Uri::root(), $adsense_code);
+    echo $adsense_code;
+
+} else {
+    echo $alternate_content;
+
+}
 if ($module_css_style)			{echo '</div>';}
 ?>
