@@ -60,7 +60,7 @@ Phoca GAE (formerly known as Phoca Google AdSense Easy) is a Joomla! module. Don
 
 ## Version (Joomla! 4.x)
 
-4.0.2
+4.0.3
 
 
 
@@ -71,3 +71,17 @@ GNU/GPL
 
 
 This project is open source project - feel free to contribute! Thank you.
+
+
+
+## Social Media
+
+- [Phoca on Facebook](https://www.facebook.com/Phoca.cz)
+
+- [Phoca on X (Twitter)](https://twitter.com/PhocaCz)
+
+- [Phoca on YouTube](https://www.youtube.com/user/phocavideos)
+
+- [Phoca on GitHub](https://github.com/PhocaCz)
+
+- [Phoca on Reddit](https://www.reddit.com/user/PhocaCz)

@@ -24,12 +24,12 @@
 		<description><![CDATA[ Phoca GAE (formerly known as Phoca Google AdSense Easy) is a Joomla! module. Don't waste your time filling out a lot of forms. Just copy your Google AdSense Code and paste it into your Joomla! site. ]]></description>
 		<element>mod_phocagae</element>
 		<type>module</type>
-		<version>4.0.2</version>
-		<infourl title="Phoca GAE Module 4.0.2">https://www.phoca.cz/</infourl>
+		<version>4.0.3</version>
+		<infourl title="Phoca GAE Module 4.0.3">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaGAEModule/releases/download/4.0.2/mod_phocagae_v4.0.2.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaGAEModule/releases/download/4.0.3/mod_phocagae_v4.0.3.zip</downloadurl>
 		</downloads>
-		<sha512>12fa722ce1a4c6c0750d4562abcbe917cdf3bd9c93f7b8954b0ce644f04e89a162d547a1bd646bd20ff70dd3cc8fcdcca29da27cb57618ddd7e769ae4c54c9a6</sha512>
+		<sha512>cae582b59bfb4d575ba46139a3bf8b3e819eeaf359be83f245f7707bc550a32994225057f12d42ad897cea34dd7008b3600f0e45bae0d5ec8f01ea4825d7fa57</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
